@@ -8,7 +8,7 @@ type Props = {
 
 export default function ProcessStep({ step, title, description }: Props) {
   return (
-    <SpotlightCard className="p-6 rounded-2xl backdrop-blur-md transition hover:scale-105"> 
+    <SpotlightCard className="p-6 rounded-2xl backdrop-blur-md transition hover:scale-105" spotlightColor="rgba(0, 229, 255, 0.2)"> 
 
       {/* Título */}
       <h3 className="text-lg font-semibold mb-3 text-xl">

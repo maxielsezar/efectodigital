@@ -1,9 +1,9 @@
 import Header from "./components/layout/Header";
 import Hero from "./components/sections/Hero";
-import SpotlightCard from './components/animacion/SpotlightCard';
 import Servicios from "./components/sections/Servicios";
 import Beneficios from "./components/sections/Beneficios"
 import Proceso from "./components/sections/Proceso";
+import Contacto from "./components/sections/Contacto";
 
 export default function Home() {
   return (
@@ -13,6 +13,9 @@ export default function Home() {
       <Servicios />
       <Beneficios />
       <Proceso />
+      
+      <Contacto />
+      
 
 
       {/* PORTFOLIO */}
@@ -31,21 +34,7 @@ export default function Home() {
         </p>
       </section>
 
-      {/* CTA */}
-      <section id="contacto" className="py-20 px-6 text-center bg-blue-600">
-        <h2 className="text-3xl font-bold mb-4">
-          ¿Listo para llevar tu negocio al siguiente nivel?
-        </h2>
-        <p className="mb-6">
-          Contactanos hoy y empecemos tu proyecto
-        </p>
-        <a
-          href="https://wa.me/XXXXXXXXXXX"
-          className="bg-black px-6 py-3 rounded-xl font-semibold hover:bg-gray-900 transition"
-        >
-          Escribir por WhatsApp
-        </a>
-      </section>
+     
 
       {/* FOOTER */}
       <footer className="py-6 text-center text-gray-500">
