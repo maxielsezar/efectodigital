@@ -17,7 +17,7 @@ export default function Proceso() {
         threshold={0.1}
         delay={0}
         >
-            <h2 className="text-7xl font-bold mb-4">
+            <h2 className="text-5xl font-bold mb-4">
                 Cómo trabajamos
             </h2>
 

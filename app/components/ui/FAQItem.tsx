@@ -15,11 +15,11 @@ export default function FAQItem({ question, answer, isOpen, onToggle }: Props) {
         onClick={onToggle}
         className="w-full flex justify-between items-center text-left"
       >
-        <span className={`font-medium ${isOpen ? "text-blue-500" : ""}`}>
+        <span className={`font-medium ${isOpen ? "text-gray-400" : ""}`}>
           {question}
         </span>
 
-        <span className="text-blue-500 text-xl">
+        <span className="text-white text-xl">
           {isOpen ? "−" : "+"}
         </span>
       </button>

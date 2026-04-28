@@ -11,11 +11,11 @@ export default function Servicios() {
         Creamos soluciones digitales pensadas para ayudarte a atraer clientes,
         mejorar tu presencia online y hacer crecer tu negocio.
         </p>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 overflow-hidden">
             {services.map((service, index) => (
                 <AnimatedContent
                 key={index}
-                distance={100}
+                distance={20}
                 direction={service.animation.direction}
                 reverse={service.animation.reverse}
                 duration={2.6}

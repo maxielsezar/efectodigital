@@ -69,7 +69,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-800 mt-10 pt-6 text-center text-sm">
-        © {new Date().getFullYear()} TuAgencia. Todos los derechos reservados.
+        © {new Date().getFullYear()} Efecto Digital. Todos los derechos reservados.
       </div>
 
     </footer>

@@ -4,7 +4,7 @@ export default function Contacto() {
   return (
 <section
   id="contacto"
-  className="py-20 px-6 text-center bg-gradient-to-b from-blue-600 to-blue-800"
+  className="py-20 px-6 text-center bg-linear-to-b from-neutral-900 to-black"
 > <AnimatedContent
     distance={100}
     direction="vertical"
