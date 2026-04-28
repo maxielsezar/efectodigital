@@ -35,6 +35,7 @@ export default function Header() {
     }
   ];
   return ( 
+    
            <CardNav
               logo={'logo.png'}
               logoAlt="Company Logo"

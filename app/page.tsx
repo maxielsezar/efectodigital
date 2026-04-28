@@ -13,8 +13,14 @@ export default function Home() {
   return (
     <main className="bg-black text-white">
       <Header />
-      <Hero />
-      <Servicios />
+
+<section className="h-screen sticky top-0 z-0">
+  <Hero />
+</section>
+
+<section className="relative z-10 bg-black py-20">
+  <Servicios />
+
       <Beneficios />
       <Proceso />
       <Contacto />
@@ -22,6 +28,7 @@ export default function Home() {
       <Testimonio />
       <FAQ />
       <Footer />
+      </section>
     </main>
   );
 }

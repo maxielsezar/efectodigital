@@ -22,7 +22,7 @@ export default function Hero() {
   return (
   <section className="h-screen flex flex-col justify-center items-center text-center px-6">
 
-         <div className="relative h-[200px] sm:h-[300px] flex flex-col items-center justify-center">
+         <div className="relative h-50 sm:h-75 flex flex-col items-center justify-center">
 
       {isMobile ? (
         <>
