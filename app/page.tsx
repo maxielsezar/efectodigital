@@ -4,6 +4,10 @@ import Servicios from "./components/sections/Servicios";
 import Beneficios from "./components/sections/Beneficios"
 import Proceso from "./components/sections/Proceso";
 import Contacto from "./components/sections/Contacto";
+import Portafolio from "./components/sections/Portafolio";
+import Testimonio from "./components/sections/Testimonios";
+import FAQ from "./components/sections/FAQ";
+import Footer from "./components/layout/Footer";
 
 export default function Home() {
   return (
@@ -13,34 +17,11 @@ export default function Home() {
       <Servicios />
       <Beneficios />
       <Proceso />
-      
       <Contacto />
-      
-
-
-      {/* PORTFOLIO */}
-      <section className="py-20 px-6 bg-gray-950 text-center">
-        <h2 className="text-3xl font-bold mb-10">Proyectos</h2>
-        <p className="text-gray-400">
-          Próximamente casos reales de clientes satisfechos.
-        </p>
-      </section>
-
-      {/* TESTIMONIOS */}
-      <section className="py-20 px-6 text-center">
-        <h2 className="text-3xl font-bold mb-10">Clientes</h2>
-        <p className="text-gray-400">
-          “Gracias a Efecto Digital aumentamos nuestras consultas en un 70%”
-        </p>
-      </section>
-
-     
-
-      {/* FOOTER */}
-      <footer className="py-6 text-center text-gray-500">
-        © {new Date().getFullYear()} Efecto Digital
-      </footer>
-
+      <Portafolio />
+      <Testimonio />
+      <FAQ />
+      <Footer />
     </main>
   );
 }
