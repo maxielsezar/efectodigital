@@ -11,16 +11,15 @@ import Footer from "./components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-black text-white snap-y snap-proximity scroll-smooth">
       <Header />
 
 <section className="h-screen sticky top-0 z-0">
   <Hero />
 </section>
 
-<section className="relative z-10 bg-black py-20">
-  <Servicios />
-
+<div className="relative z-10 bg-black py-20 min-h-screen snap-start">
+      <Servicios />
       <Beneficios />
       <Proceso />
       <Contacto />
@@ -28,7 +27,7 @@ export default function Home() {
       <Testimonio />
       <FAQ />
       <Footer />
-      </section>
+      </div>
     </main>
   );
 }
