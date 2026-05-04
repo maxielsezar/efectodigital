@@ -1,10 +1,10 @@
 export default function EcommerceInfo() {
   return (
-    <section className="py-24 px-46 text-center text-white bg-black mx-auto">
+    <section className="py-24 md:px-46 px-10 text-center text-white bg-black mx-auto">
 
       {/* TÍTULO */}
       <h2 className="text-4xl md:text-5xl font-bold mb-6">
-        Tiendas Online (E-commerce)
+        Tiendas Online <br /> (E-commerce)
       </h2>
 
       <p className="text-gray-400 text-lg max-w-3xl mx-auto mb-16">

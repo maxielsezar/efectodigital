@@ -4,7 +4,7 @@ import AnimatedContent from "../animacion/AnimatedContent";
 
 export default function Proceso() {
   return (
-    <section id="proceso" className="py-20 px-6 text-center">
+    <section id="proceso" className="py-20 px-6 text-center md:h-screen">
         <AnimatedContent
         distance={100}
         direction="vertical"
@@ -21,12 +21,12 @@ export default function Proceso() {
                 Cómo trabajamos
             </h2>
 
-            <p className="text-gray-300 text-2xl mb-12 max-w-2xl mx-auto">
+            <p className="text-gray-300 text-2xl mb-16 max-w-2xl mx-auto">
                 Nuestro proceso está diseñado para garantizar resultados eficientes, 
                 combinando estrategia, diseño y desarrollo en cada etapa.
             </p>
 
-            <div className="grid md:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-4 gap-6 ">
 
                 {processSteps.map((step) => (
                 <ProcessStep

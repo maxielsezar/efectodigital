@@ -14,6 +14,7 @@ export const services = [
       direction: "horizontal",
       reverse: true,
     },
+    pagina:"landing"
   },
   {
     title: "Webs Profesionales",
@@ -30,6 +31,7 @@ export const services = [
       direction: "vertical",
       reverse: false,
     },
+    pagina:"webs",
   },
   {
     title: "E-commerce",
@@ -46,5 +48,6 @@ export const services = [
       direction: "horizontal",
       reverse: false,
     },
+    pagina:"ecommerce"
   },
 ] as const;

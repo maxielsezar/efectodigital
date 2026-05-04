@@ -1,6 +1,6 @@
 export default function WebsProfesionales() {
   return (
-    <section className="py-24 px-46 text-center  mx-auto text-white bg-black">
+    <section className="py-24 md:px-46 px-20 text-center  mx-auto text-white bg-black">
 
       {/* TÍTULO */}
       <h2 className="text-4xl md:text-5xl font-bold mb-6">

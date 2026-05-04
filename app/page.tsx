@@ -23,9 +23,9 @@ export default function Home() {
       <Beneficios />
       <Proceso />
       <Contacto />
-      <Portafolio />
-      <Testimonio />
-      <FAQ />
+       {/*<Portafolio />
+     <Testimonio />
+      <FAQ />*/ }
       <Footer />
       </div>
     </main>

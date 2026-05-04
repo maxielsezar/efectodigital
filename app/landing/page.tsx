@@ -1,6 +1,6 @@
 export default function LandingInfo() {
   return (
-    <section className="py-24 px-46 text-center mx-auto bg-black text-white">
+    <section className="py-24 md:px-46 px-20 text-center mx-auto bg-black text-white">
 
       {/* TÍTULO */}
       <h2 className="text-4xl md:text-5xl font-bold mb-6">

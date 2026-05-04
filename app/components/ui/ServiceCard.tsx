@@ -1,8 +1,11 @@
+import { link } from "fs";
+
 type Props = {
   title: string;
   description: string;
   features: readonly string[];
   price: string;
+  pagina: string;
 };
 
 export default function ServiceCard({
@@ -10,11 +13,12 @@ export default function ServiceCard({
   description,
   features,
   price,
+  pagina,
 }: Props) {
   return (
     <div className="transition hover:scale-105 custom-spotlight-card p-6 flex flex-col h-full">
 
-      <h3 className="text-3xl font-semibold mb-3">{title}</h3>
+      <h3 className="text-2xl font-semibold mb-3">{title}</h3>
 
       <p className="text-gray-400 text-lg mb-4">
         {description}
@@ -26,14 +30,14 @@ export default function ServiceCard({
         ))}
       </ul>
 
-      <p className="text-blue-500 font-semibold mb-4 text-2xl">
+      <p className="text-blue-500 font-semibold mb-4 text-xl">
         {price}
       </p>
 
       {/* CTA */}
       <a
-        href="#contacto"
-        className="mt-auto text-xl inline-block text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+        href={pagina}
+        className="mt-auto text-lg inline-block text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition"
       >
         Solicitar presupuesto
       </a>
