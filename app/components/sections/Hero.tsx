@@ -27,7 +27,7 @@ export default function Hero() {
       {isMobile ? (
         <>
           <TextPressure
-            text="Efecto"
+            text="Elsezar"
             flex
             alpha={false}
             stroke={false}
@@ -54,7 +54,7 @@ export default function Hero() {
         </>
       ) : (
         <TextPressure
-          text="Efecto.Digital"
+          text="Elsezar.Digital"
           flex
           alpha={false}
           stroke={false}
@@ -99,7 +99,7 @@ export default function Hero() {
 
         </h1>
         <p className="text-lg text-gray-400 max-w-xl mt-6">
-          En Efecto Digital creamos páginas modernas, rápidas y optimizadas para generar resultados reales.
+          En Elsezar Digital creamos páginas modernas, rápidas y optimizadas para generar resultados reales.
         </p>
 
       </section>
