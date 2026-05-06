@@ -61,8 +61,8 @@ export default function Footer() {
           </h4>
 
           <ul className="space-y-2 text-sm">
-            <li>📧 tuemail@gmail.com</li>
-            <li>📱 +54 9 XXX XXX XXXX</li>
+            <li>📧 elsezarmaxi@gmail.com</li>
+            <li>📱 +54 9 263 424 3192</li>
           </ul>
         </div>
 
